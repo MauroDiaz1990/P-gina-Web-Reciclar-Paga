@@ -1,0 +1,175 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1{font-size: 2.5em; font-weight: lighter;}
+h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+h2{font-size: 1.1em; color:rgb(5, 185, 5);text-align: right;}
+h3{font-size: 1.1em; color:rgb(0, 0, 0);text-align: left;}
+h4{font-size: 1.1em; color:rgb(5, 185, 5);text-align: center; margin-top: 70px;}
+h5{font-size: 1.0em; text-align: center;}
+h6{font-size: 1.1em; color:rgb(0, 0, 0);text-align: center; margin-top: 20px;}
+p{font-size: 0.9em;}
+UL{font-size: 0.9em;}
+UL{list-style: none;}
+li{list-style: none;}
+
+button{
+    margin: 20px 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: black;
+    background-color: rgb(5, 185, 5);
+}
+button:hover{
+    background-color: rgb(133, 189, 133);
+}
+.container{
+    max-width: 1400px;
+    margin:auto;
+    }
+header{
+    background-color: rgb(5, 185, 5);
+    margin: 0;
+    padding: 2px 5px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.0em;
+    text-decoration-line: underline;
+    color: aliceblue;
+    }
+#hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 76vh;
+            background-image:url("Imagenes/Fondo\ Sección\ 1.jpg");place-items: center;
+        image-resolution: 1400px;
+        padding-bottom: 0%;
+}
+.l1{
+    margin: 30px 30px;
+    padding: 15px 0px;
+    font-weight: bold;
+    display: inline-block;      
+}
+.l2{
+    margin: 40px 40px;
+    padding: 15px 15px;
+    font-weight: bold;
+    display: inline-block;      
+}
+.l3{
+    margin: 15px 15px;
+    padding: 15px 20px;
+    font-weight: bold;
+    display: inline-block;      
+}
+.l4{
+    margin: 40px 40px;
+    padding: 15px 50px;
+    font-weight: bold;
+    display: inline-block;      
+}
+#Que-es-el-reciclaje{
+    text-align: justify;
+    padding: 50px 50px;
+    height: 80vh;
+    }
+#Que-son-los-residuos{
+    text-align: justify;
+    background-color: rgb(5, 185, 5);
+    padding: 50px 50px;
+    height: 70vh;
+    padding-bottom: 10%;
+}
+.Botella-basura{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+.Residuos-2{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: 250px;
+}
+.Residuos-3{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: 300px;
+}
+#Ciclo-del-reciclaje{
+    margin-top: 50px;
+    text-align: justify;
+    padding: 50px 50px;
+    height: 100vh;
+    padding-bottom: 10%;
+}
+.Ciclo{
+    width: 900px;
+    height: 550px;
+    border-radius: 15px;
+    margin-left: 250px;
+}
+#razones-para-reciclar{
+    margin-top: 0px;
+    background-color: rgb(5, 185, 5);
+    text-align: center;
+    padding: 10px 10px;
+    height: 90vh;
+    padding-bottom: 10%;
+}
+.Razones{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+#como-podemos-ayudar{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 50px 50px;
+    height: 100vh;
+    padding-bottom: 10%;
+}
+.TresR{
+    width: 750px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 300px;
+}
+#Sabias-que{
+    margin-top: 0px;
+    text-align: justify;
+    padding: 50px 50px;
+    height: 80vh;
+    padding-bottom: 10%;
+}
+.Aprende{
+    width: 350px;
+    height: 310px;
+    border-radius: 15px;
+    margin-left: 520px;
+}
+footer{
+    background-color: rgb(5, 185, 5);
+    font-weight: bold;
+    margin-bottom: 0px;
+}
